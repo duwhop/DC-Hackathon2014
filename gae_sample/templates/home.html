@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>{{names[3]}}'s Page</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">	
+  </head>
+	<body>
+		
+		<h1>Who's Awesome?</h1>
+			{% for name in names %}
+				{% if name != 'Travis' %}
+					<p class='name'>{{name}}</p>
+			<form action='/' method='post' enctype='multipart/form-data'>
+			    Food: <input type='text' name='food' id='food' />
+			    <br />
+				Amount: <input type='number' name='amount' id='amount'>
+				<br />
+				<input type="hidden" name="name" value="{{name}}">
+			  <input type="submit" name="submit" value="Submit">
+			</form>
+		  <hr />
+				{% endif %}
+			{% endfor %}
+	</body>
+</html>
