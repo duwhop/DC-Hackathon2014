@@ -1,0 +1,23 @@
+<table border=1 style="height:20%">
+
+ <tr height="600px" >  
+   <td> icon1 </td>
+   <td> detail1 </td>
+ </tr>
+
+<tr>
+   <td> icon2 </td>
+   <td> detail2 </td>
+</tr>
+
+<tr>
+   <td> icon3 </td>
+   <td> detail3 </td>
+</tr>
+
+<tr>
+   <td> icon4 </td>
+   <td> detail4 </td>
+</tr>
+
+</table>
