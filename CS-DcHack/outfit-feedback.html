@@ -1,0 +1,71 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Untitled Form</title>
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+<script type="text/javascript" src="view.js"></script>
+
+</head>
+<body id="main_body" >
+	
+
+	<div id="form_container">
+	
+		<h3><a>Rate Your Outfit</a></h3>
+		<form id="form_739090" class="appnitro"  method="post" action="/thank_you">
+					<div class="form_description">
+		</div>						
+			
+		<label class="description" for="element_1">How often did you recieve positive feedback? </label>
+		<div>
+		<select class="element select medium" id="element_1" name="element_1"> 
+			<option value="" selected="selected"></option>
+<option value="1" >Never</option>
+<option value="2" >Rarely</option>
+<option value="3" >Ocassionaly</option>
+<option value="4" >Frequently</option>
+
+		</select>
+		</div> 
+		
+		<label class="description" for="element_2">How would you rate this outfit? </label>
+		<div>
+		<select class="element select medium" id="element_2" name="element_2"> 
+			<option value="" selected="selected"></option>
+<option value="1" >1</option>
+<option value="2" >2</option>
+<option value="3" >3</option>
+<option value="4" >4</option>
+<option value="5" >5</option>
+
+		</select>
+		</div> 
+		
+		<label class="description" for="element_3">Would you wear this outfit again? </label>
+		<div>
+		<select class="element select medium" id="element_3" name="element_3"> 
+			<option value="" selected="selected"></option>
+<option value="1" >Yes</option>
+<option value="2" >No</option>
+
+		</select>
+		</div> 
+		
+			
+					
+			    <input type="hidden" name="form_id" value="739090" />
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		
+		</form>	
+		
+	</div>
+	</body>
+</html>
+
+{% endblock %}
