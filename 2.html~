@@ -1,0 +1,23 @@
+<table border=1 style="height:20%">
+
+ <tr height="100px" >  
+   <td>  <img src="c.png" alt="icon of Code Coursera" width="100px"></td>
+   <td width="200px"> Coursera is a for-profit educational technology company founded by computer science professors Andrew Ng and Daphne Koller from Stanford University that offers massive open online courses (MOOCs).</td>
+ </tr>
+
+<tr height="100px" >
+   <td> <img src="mit.png" alt="icon of Udacity" width="100px"></td>
+   <td width="200px"> MIT OpenCourseWare (MIT OCW) is an initiative of the Massachusetts Institute of Technology (MIT) to put all of the educational materials from its undergraduate- and graduate-level courses online, partly free and openly available to anyone, anywhere. </td>
+</tr>
+
+<tr height="100px">
+   <td> <img src="ka.png" alt="icon of Khan academy" width="100px"</td>
+   <td> Khan Academy is a non-profit educational organization created in 2006 by educator Salman Khan to provide a free, world-class education for anyone, anywhere.</td>
+</tr>
+
+<tr height="100px">
+   <td> <img src="edx.jpg" alt="icon of edX" width="100px"</td> 
+   <td>EdX is a massive open online course (MOOC) provider and online learning platform. It hosts online university-level courses in a wide range of disciplines to a worldwide audience, some at no charge.</td>
+</tr>
+
+</table>

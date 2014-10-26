@@ -1,23 +1,25 @@
 <table border=1 style="height:20%">
 
- <tr height="600px" >  
-   <td> icon1 </td>
-   <td> detail1 </td>
+ <tr height="100px" >  
+   <td>  <img src="1.png" alt="icon of Code Academy" width="100px"></td>
+   <td width="200px"> Codecademy is an online interactive platform that offers free coding classes in six different programming languages like Python, PHP, jQuery, JavaScript, and Ruby, as well as markup languages including HTML and CSS </td>
  </tr>
 
-<tr>
-   <td> icon2 </td>
-   <td> detail2 </td>
+<tr height="100px" >
+   <td> <img src="gh.png" alt="icon of github" width="100px"></td>
+   <td width="200px"> GitHub is a Git repository web-based hosting service, which offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features. </td>
 </tr>
 
-<tr>
-   <td> icon3 </td>
-   <td> detail3 </td>
+<tr height="100px">
+   <td> <img src="pe.png" alt="con of projecteuler" width="100px"</td>
+   <td> Project Euler (named after Leonhard Euler) is a website dedicated to a series of computational problems intended to be solved with computer programs. </td>
 </tr>
 
-<tr>
-   <td> icon4 </td>
-   <td> detail4 </td>
+<tr height="100px">
+   <td> <img src="w3.png" alt="icon of w3schools" width="100px"</td>
+   <td> W3Schools is a web developer information website, with tutorials and references relating to web development topics such as HTML, CSS, JavaScript, PHP, SQL, and JQuery.
+
+ </td>
 </tr>
 
 </table>
